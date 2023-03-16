@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "InTouchImageTest.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
