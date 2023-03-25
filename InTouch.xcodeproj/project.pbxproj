@@ -44,6 +44,7 @@
 		8823F2CF29C3BB2B000F9258 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823F2CE29C3BB2B000F9258 /* Models.swift */; };
 		8823F2D229C3BE0F000F9258 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823F2D129C3BE0F000F9258 /* PostViewController.swift */; };
 		8879ACF029CF908300BDB037 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879ACEF29CF908300BDB037 /* ListViewController.swift */; };
+		8879ACF329CFA16900BDB037 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879ACF229CFA16900BDB037 /* UserFollowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		8823F2CE29C3BB2B000F9258 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		8823F2D129C3BE0F000F9258 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		8879ACEF29CF908300BDB037 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8879ACF229CFA16900BDB037 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 		8816B0C929B9286100EBA961 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				8879ACF129CF976400BDB037 /* General */,
 				8823F2D029C3BDF2000F9258 /* Main */,
 				8816B0CA29B9286500EBA961 /* Onboarding */,
 			);
@@ -204,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				8816B0DF29BE5C3600EBA961 /* HomeFeed */,
+				8879ACF229CFA16900BDB037 /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -236,9 +240,16 @@
 				8816B0DA29BE3B0200EBA961 /* SettingsViewController.swift */,
 				8816B0E629C11A1500EBA961 /* EditProfileViewController.swift */,
 				8823F2D129C3BE0F000F9258 /* PostViewController.swift */,
-				8879ACEF29CF908300BDB037 /* ListViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8879ACF129CF976400BDB037 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8879ACEF29CF908300BDB037 /* ListViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 				8816B0C329B927EF00EBA961 /* CameraViewController.swift in Sources */,
 				8816B0C529B927FA00EBA961 /* NotificationViewController.swift in Sources */,
 				8816B0E129BE5C6200EBA961 /* FeedPostHeaderTableViewCell.swift in Sources */,
+				8879ACF329CFA16900BDB037 /* UserFollowTableViewCell.swift in Sources */,
 				8816B0E729C11A1500EBA961 /* EditProfileViewController.swift in Sources */,
 				8816B0CC29B9287700EBA961 /* LoginViewController.swift in Sources */,
 				8816B09E29B922D700EBA961 /* AppDelegate.swift in Sources */,
