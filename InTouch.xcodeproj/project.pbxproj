@@ -43,6 +43,7 @@
 		8816B0F529C3B4CB00EBA961 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8816B0F429C3B4CB00EBA961 /* SDWebImageMapKit */; };
 		8823F2CF29C3BB2B000F9258 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823F2CE29C3BB2B000F9258 /* Models.swift */; };
 		8823F2D229C3BE0F000F9258 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823F2D129C3BE0F000F9258 /* PostViewController.swift */; };
+		8879ACF029CF908300BDB037 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879ACEF29CF908300BDB037 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		8816B0EF29C38E5E00EBA961 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
 		8823F2CE29C3BB2B000F9258 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		8823F2D129C3BE0F000F9258 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8879ACEF29CF908300BDB037 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				8816B0DA29BE3B0200EBA961 /* SettingsViewController.swift */,
 				8816B0E629C11A1500EBA961 /* EditProfileViewController.swift */,
 				8823F2D129C3BE0F000F9258 /* PostViewController.swift */,
+				8879ACEF29CF908300BDB037 /* ListViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				8816B0C129B927DD00EBA961 /* ProfileViewController.swift in Sources */,
 				8816B0A029B922D700EBA961 /* SceneDelegate.swift in Sources */,
 				8816B0E329BE5C8A00EBA961 /* FeedPostActionsTableViewCell.swift in Sources */,
+				8879ACF029CF908300BDB037 /* ListViewController.swift in Sources */,
 				8816B0F029C38E5E00EBA961 /* ProfileTabsCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
