@@ -14,11 +14,12 @@ enum Gender{
 struct User{
     let username: String
     let name: (first: String, last: String)
-    let birthDate: Int
+    let birthDate: Date
     let gender: Gender
     let bio: String
     let count: UserCount
     let joinDate: Date
+    let profilePhoto: URL 
     
 }
 struct UserCount{
@@ -27,8 +28,9 @@ struct UserCount{
     let posts: Int
 }
 
-enum UserPostType{
-    case photo, video
+public enum UserPostType: String{
+    case photo = "Photo"
+    case video = "Video"
 }
 
 ///Represents a users post
@@ -42,7 +44,7 @@ public struct UserPost{
     let comments: [PostComment]
     let createdDate: Date
     let taggedUsers:[String]
-    
+    let owner: User 
 }
 struct PostLike{
     let username: String

@@ -3,32 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>268014200703-uv2bvu8snm3di2jb937qj3mq56c5re8n.apps.googleusercontent.com</string>
+	<string>122871966512-mrbra2foakl75t0ll1c79ig4mk5f2p6h.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.268014200703-uv2bvu8snm3di2jb937qj3mq56c5re8n</string>
+	<string>com.googleusercontent.apps.122871966512-mrbra2foakl75t0ll1c79ig4mk5f2p6h</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB_K0YTRz_nxdCo9-y0P7OHmGzwNvWaehY</string>
+	<string>AIzaSyCKk4kOx10Ybn039eFaHLSY3IZVTs7uKpQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>268014200703</string>
+	<string>122871966512</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.jesseandringa.InTouch</string>
+	<string>inTouchAug</string>
 	<key>PROJECT_ID</key>
-	<string>intouch-de6c0</string>
+	<string>intouch-8ec50</string>
 	<key>STORAGE_BUCKET</key>
-	<string>intouch-de6c0.appspot.com</string>
+	<string>intouch-8ec50.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
+	<key>DATABASE_URL</key>
+	<string>https://intouch-8ec50-default-rtdb.firebaseio.com</string>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:268014200703:ios:0625cf44a8ce7c299b5c4a</string>
+	<string>1:122871966512:ios:6a099aac7de00e6749f6f5</string>
 </dict>
 </plist>
